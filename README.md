@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Project: Event invite</title>
+        <title>Event invite</title>
         <style>
             
             #over-overskrift {
