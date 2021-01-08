@@ -1,16 +1,112 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            
+            #over-overskrift {
+                color: rgb(255, 255, 255);
+                text-align: center;
 
-<!--
-**CharliesEngels/CharliesEngels** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+            }
+            
+            #overskrift {
+                z-index: 2;
+                color: rgb(255, 255, 255);
+                position: relative;
+                text-align: center;
+            }
+            
+            #under-overskrift {
+                z-index: 2;
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+            }
+            
+            #header-billede {
+                position: absolute;
+                top: 20px;
+                z-index: -1;
+				width: 1500px;
+            }
+            
+            #header {
+                padding: 20px;
+                padding-right: 100px;
+            }
+            
+            #praktisk-info-box {
+                float: right;
+                width: 30%;
+                background-color: rgb(72, 112, 194);
+                padding: 4px;
+                color: rgb(255, 252, 255);
+                z-index:2;
+            }
+            
+            #det-praktiske-titel {
+                line-height:0.5em;
+            }
+            
+            #torvholder-tekst {
+                font-size:13px;
+            }
+            
+            #teleskop-foto {
+                height:300px;
+            }
+            
+            #bottom-foto {
+                position: relative;
+                bottom: 2px;
+                left: 30%;
+                z-index: 1;
+            }
+            
+            #inv-tekst {
+                padding-left: 5px;
+                padding-right: 5px;
+                
+                line-height:1.5em;
+                background-color:rgb(191, 233, 255);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="header">
+        <div><h3 id="over-overskrift">Invitation til...</h3></div>
+        <div id="overskrift"><h1>Stjernekigningstur!</h1>
+        <h2 id="under-overskrift">med Muler Masterminds</h2></div>
+        </div>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/VLT_Cerro_Paranal_Total_Lunar_Eclipse_21_December_2010.jpg/733px-VLT_Cerro_Paranal_Total_Lunar_Eclipse_21_December_2010.jpg" id="header-billede">
+        
+        <div id="praktisk-info-box">
+        <h3 id="det-praktiske-titel"> Det praktiske</h3>
+        <p>
+        <strong>Hvor?</strong><br>
+        På Stige Ø! Det er det nemmest tilgængelige sted fra Odense, hvor vi vil kunne få et minimum af lysforurening. <br>
+        <br>
+        <strong>Hvornår?</strong><br>
+        Når himlen og covid-19 vil det! Vi har desværre måtte udskyde det fra den originale idé, om at det skulle være i juleferien. Jeg håber på, at det kan lade sig gøre i løbet af februar. Den anden joker, som man spiller med, når man kigger på stjerner er vejret - og den kan være mindst lige så tricky!<br>
+        <br>
+        <strong>Medbring...</strong> <br>
+        Varmt tøj! Det bliver koldt... Jeg medbringer vand og kakaopulver, samt pandekagedej og trangia - så burde vi godt kunne klare os. (Og selvfølgelig også teleskop!)
+        </p></div>
+        
+        <div id="inv-tekst">
+        <h3>Kære Muler Masterminds!</h3>
+        <p>Det glæder mig meget at kunne invitere jer til en aften under stjerne! Anledningen er den, at jeg har fået bevilliget et teleskop fra DUF's forundringspulje til køb af et teleskop. Og hvem bedre, at bruge dette med end Muler Masterminds? <br>
+        Arrangementen bliver om aftenen (af oplagte grunde), hvor vi kan få studeret himlen - både med og uden teleskop - og hygget os igennem. Jeg håber meget, at vi kan afholde det i løbet af februar, men med så meget andet, må vi afvente hvordan covid-19 situationen ændrer sig. Teleskopet går jo ingen vegne! <br>
+        Jeg håber også, at det bliver til ét arrangement af mange - og at det kan være et led til at få gang i Muler Masterminds, og jeg håber derfor, at I gerne vil være med.<br> <br>
+        De bedste hilsner,<br>
+        Charlie,
+        <br> <span id="torvholder-tekst">torvholder for Muler Masterminds</span>
+        </p>
+        </div>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Astronomy_Amateur_3_V2.jpg/250px-Astronomy_Amateur_3_V2.jpg" id="bottom-foto">
+        
+    </body>
+</html>
